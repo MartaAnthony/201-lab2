@@ -29,10 +29,10 @@ var bear = prompt('Did I see a polar bear on the street of my hometown in Poland
 
 if(bear.toLowerCase() === 'yes' || bear.toLowerCase() === 'y'){
   // console.log('incorrect');
-  alert('No, you silly! Poland is not Siberian tundra, there are no polar bears on the streets.');
+  alert('No, you silly! Poland is not a Siberian tundra, there are no polar bears on the streets.');
 } else {
   // console.log('correct');
-  alert('Bravo! That would be a scary and improbable situation.');
+  alert('Bravo! That would be a scary proposition. And totally messed up, since there are no polar bears outside of the zoo in Poland');
 }
 
 // Do I like veggies? 
@@ -68,7 +68,20 @@ if(number === "3") {
   }
  }
 
- alert(name +', that is it. Thank you for playing!')
+ alert('One more question, ok? I have a very sweet tooth, and I am wondering if you can guess which treat is my favorite.')
+
+ for (var i=0; i<6; i++){
+   var favoriteSweets = ['chocolate truffles', 'peanut butter cups', 'flan', 'hard candy', 'salted carmels', 'cookies', 'donuts', 'bananas'];
+   var sweetGuess = prompt('What do I like most: chocolate truffles, peanut butter cups, flan, hard candy, salted carmels, cookies, donuts, or bananas?');
+   if(sweetGuess === favoriteSweets[4]) {
+     alert('You got it! I would kill for salted carmels right now.');
+     break;
+   } else {
+     alert('That\'s not it.')
+   }
+   }
+
+ alert(name +', that\'s all for today. You\'re a good sport. Thank you for playing!')
 
  } else {
     alert('Maybe another time!'); 
