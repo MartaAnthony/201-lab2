@@ -53,18 +53,23 @@ if(age.toLowerCase() === 'yes' || age.toLowerCase() === 'y'){
   alert('Guess again. Just kidding, I\'m not going to tell you my age anyway.');
 } else {
   // console.log('correct');
-  alert("Doesn't matter, I won't tell you my age anyway.");
+  alert('Doesn\'t matter, I won\'t tell you my age anyway.');
 }
 
-alert(name +', thank you so much for playing with me. Now you know my secrets.')
-} else {
-   alert('Maybe another time!'); 
-}
+for (var i=0; i<3; i++){ 
+  var number = prompt('How many plants did I accidentally kill last year? Choose a number from 1 to 10. You have 3 guesses!');
+if(number === "3") {
+   alert('Good job! You are figuring me out.');
+   break;
+  } else if (number > 3){
+    alert('Hold your horses, my black thumb is not that bad.');
+  } else {
+    alert('I wish. It was definitely more.');
+  }
+ }
 
+ alert(name +', that is it. Thank you for playing!')
 
-
-
-
-
-
-
+ } else {
+    alert('Maybe another time!'); 
+  }
