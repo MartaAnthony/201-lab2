@@ -9,16 +9,13 @@ alert('Welcome to my page, ' + name + '!');
 // Invitation to play
 var playGame = prompt('Do you want to play a guessing game with me?')
 
-if (playGame.toLowerCase() === 'yes'){
-  alert('Cool! I will ask you a couple of questions, and you\'ll answer yes or no, or if you\'re lazy, just say y or n. Let\'s go!');
-} else {
-   alert('Maybe another time!'); 
-}
+if(playGame.toLowerCase() === 'yes'){
+  alert('Cool! I will ask you a couple of questions, and you\'ll answer yes or no, or if you\'re lazy, just say y or n. Let\'s go!')
 
-// Who's my husband?
+  // Who's my husband?
 var husband = prompt('Is my husband a military trained killing machine?')
 
-if (husband.toLowerCase() === 'yes' || husband.toLowerCase() === 'y'){
+if(husband.toLowerCase() === 'yes' || husband.toLowerCase() === 'y'){
   // console.log('correct');
   alert('Yup! Your\'re right. My husband was a captain in the US Marine Corps.');
   
@@ -30,7 +27,7 @@ if (husband.toLowerCase() === 'yes' || husband.toLowerCase() === 'y'){
 // Did I see a polar bear?
 var bear = prompt('Did I see a polar bear on the street of my hometown in Poland one winter?')
 
-if (bear.toLowerCase() === 'yes' || bear.toLowerCase() === 'y'){
+if(bear.toLowerCase() === 'yes' || bear.toLowerCase() === 'y'){
   // console.log('incorrect');
   alert('No, you silly! Poland is not Siberian tundra, there are no polar bears on the streets.');
 } else {
@@ -41,7 +38,7 @@ if (bear.toLowerCase() === 'yes' || bear.toLowerCase() === 'y'){
 // Do I like veggies? 
 var favoriteFood = prompt('Is my favorite food group veggies?')
 
-if (favoriteFood.toLowerCase() === 'yes' || favoriteFood.toLowerCase() === 'y'){
+if(favoriteFood.toLowerCase() === 'yes' || favoriteFood.toLowerCase() === 'y'){
   // console.log('correct');
   alert('You bet! I LOVE veggies. I\'m practically a bunny rabbit.');
 } else {
@@ -51,7 +48,7 @@ if (favoriteFood.toLowerCase() === 'yes' || favoriteFood.toLowerCase() === 'y'){
 
 var age = prompt('Am I 33?')
 
-if (age.toLowerCase() === 'yes' || age.toLowerCase() === 'y'){
+if(age.toLowerCase() === 'yes' || age.toLowerCase() === 'y'){
   // console.log('incorrect');
   alert('Guess again. Just kidding, I\'m not going to tell you my age anyway.');
 } else {
@@ -60,6 +57,11 @@ if (age.toLowerCase() === 'yes' || age.toLowerCase() === 'y'){
 }
 
 alert(name +', thank you so much for playing with me. Now you know my secrets.')
+} else {
+   alert('Maybe another time!'); 
+}
+
+
 
 
 

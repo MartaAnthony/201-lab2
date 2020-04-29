@@ -22,7 +22,7 @@ h2 {
   color: #7D775C;
   font-weight: bold;
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 p {
   text-align: justify;
@@ -45,6 +45,16 @@ a:hover, a:active {
 
 a:visited {
   color: rgb(112, 110, 98);
+}
+
+ol li {
+  list-style-type: decimal;
+  margin-left: 15px;
+}
+
+ul li {
+  list-style-type: disc;
+  margin-left: 15px;
 }
 
 footer {
