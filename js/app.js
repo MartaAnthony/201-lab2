@@ -18,12 +18,12 @@ if(playGame.toLowerCase() === 'yes'){
 var husband = prompt('Is my husband a military trained killing machine?')
 
 if(husband.toLowerCase() === 'yes' || husband.toLowerCase() === 'y'){
-  console.log(1);
+  // console.log('correct annswer - my husband is a killing machine');
   answers.push(1);
   alert('Yup! Your\'re right. My husband was a captain in the US Marine Corps.');
   
 } else { 
-   console.log(0);
+  //  console.log('incorrect');
   alert('Oh yes he is! He is a badass US Marine Corps officer.');
 }
 
@@ -31,10 +31,10 @@ if(husband.toLowerCase() === 'yes' || husband.toLowerCase() === 'y'){
 var bear = prompt('Did I see a polar bear on the street of my hometown in Poland one winter?')
 
 if(bear.toLowerCase() === 'yes' || bear.toLowerCase() === 'y'){
-  console.log(0);
+  // console.log('incorrect');
   alert('No, you silly! Poland is not a Siberian tundra, there are no polar bears on the streets.');
 } else {
-  console.log(1);
+  // console.log('correct - there are no polar bears in Poland');
   answers.push(1);
   alert('Bravo! That would be a scary proposition. And totally messed up, since there are no polar bears outside of the zoo in Poland');
 }
@@ -43,11 +43,11 @@ if(bear.toLowerCase() === 'yes' || bear.toLowerCase() === 'y'){
 var favoriteFood = prompt('Is my favorite food group veggies?')
 
 if(favoriteFood.toLowerCase() === 'yes' || favoriteFood.toLowerCase() === 'y'){
-  console.log(1);
+  // console.log('correct - my favorite foods are veggies');
   answers.push(1);
   alert('You bet! I LOVE veggies. I\'m practically a bunny rabbit.');
 } else {
-  console.log(0);
+  // console.log('incorrect');
   alert('Why do you say that? Do you think I\'m fat? Of course I like veggies.');
 }
 
@@ -56,10 +56,10 @@ if(favoriteFood.toLowerCase() === 'yes' || favoriteFood.toLowerCase() === 'y'){
 var age = prompt('Am I 33?')
 
 if(age.toLowerCase() === 'yes' || age.toLowerCase() === 'y'){
-  console.log(0);
+  // console.log('incorrect');
   alert('Guess again. Just kidding, I\'m not going to tell you my age anyway.');
 } else {
-  console.log(1);
+  // console.log('correct - I am not 33');
   answers.push(1);
   alert('Doesn\'t matter, I won\'t tell you my age anyway.');
 }
@@ -69,10 +69,10 @@ if(age.toLowerCase() === 'yes' || age.toLowerCase() === 'y'){
 var dance = prompt('Did I use to dance salsa competitevely?')
 
 if(dance.toLowerCase() === 'yes' || dance.toLowerCase() === 'y'){
-  console.log(0);
+  // console.log('incorrect');
   alert('Heck no, I am the most uncoordinated person ever.');
 } else {
-  console.log(1);
+  // console.log('correct - I can\'t dance');
   answers.push(1);
   alert('Very good. I am not a dancer');
 }
@@ -82,12 +82,12 @@ if(dance.toLowerCase() === 'yes' || dance.toLowerCase() === 'y'){
 for (var i=0; i<3; i++){ 
   var number = prompt('How many plants did I accidentally kill last year? Choose a number from 1 to 10. You have 3 guesses!');
 if(number === "3") {
-  console.log(1);
+  // console.log('correct - 3 plants killed');
   answers.push(1);
    alert('Good job! You are figuring me out.');
    break;
   } else if (number > 3){
-    console.log(0);
+    // console.log('incorrect');
     alert('Hold your horses, my black thumb is not that bad.');
   } else {
     console.log(0)
@@ -95,7 +95,7 @@ if(number === "3") {
   }
  }
 
- // My favorite sweerts
+ // My favorite sweets
 
  alert('One more question, ok? I have a very sweet tooth, and I am wondering if you can guess which treat is my favorite.')
 
@@ -103,18 +103,18 @@ if(number === "3") {
    var favoriteSweets = ['chocolate truffles', 'peanut butter cups', 'flan', 'hard candy', 'salted carmels', 'cookies', 'donuts', 'bananas'];
    var sweetGuess = prompt('What do I like most: chocolate truffles, peanut butter cups, flan, hard candy, salted carmels, cookies, donuts, or bananas?');
    if(sweetGuess === favoriteSweets[4]) {
-     console.log(1);
+    //  console.log('correct - salted carmels are my favorite');
      answers.push(1);
      alert('You got it! I would kill for salted carmels right now.');
      break;
    } else {
-     console.log(0);
+    //  console.log('incorrect');
      alert('That\'s not it.')
    }
    }
 
-   console.log(answers);
-   alert('You\'ve got ' + answers.length + ' correct answers!');
+  //  console.log(answers);
+   alert('You\'ve got ' + answers.length + ' correct answers out of 7!');
 
  alert(name +', that\'s all for today. You\'re a good sport. Thank you for playing!')
 
