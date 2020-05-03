@@ -117,33 +117,6 @@ function gameInvite(){
     plantQuestion();
     sweetsQuestion();
 
-// Who's my husband?
-
-//husbandQuestion();
-
-//Did I see a polar bear?
-
-  //bearQuestion();
-
-//   // Do I like veggies? 
-
-//veggieQuestion();
-//   // what's my age
-
-  //ageQuestion();
-
-  //   //Am I a dancer
-
-  //danceQuestion();
-//   // How many plants did I kill
-
-//plantQuestion();
-
-  // My favorite sweets
-
-   //sweetsQuestion();
-
-    //   //  console.log(answers);
     alert('You\'ve got ' + answers.length + ' correct answers out of 7!');
 
     alert(userName +', that\'s all for today. You\'re a good sport. Thank you for playing!');

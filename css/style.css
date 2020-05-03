@@ -1,25 +1,26 @@
 
 body {
+ background: white;
+ color: #555753;
  font: 95% georgia sans-serif;
  line-height: 2;
- color: #555753;
- background: white;
- margin: 0;
+ margin: 0 auto;
  padding: 20px;
  padding-left: 50px;
  width: 700px;
 }
+
 h1 {
-  font:  1.4em georgia, sans-serif;
+  color: rgb(92, 101, 125);
+  font:  30px georgia, sans-serif;
+  font-weight: bold;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-  color: #7D775C;
-  font-weight: bold;
   padding-bottom: 20px;
 }
 
 h2 {
-  color: #7D775C;
+  color: rgb(92, 101, 125);;
   font-weight: bold;
   padding-bottom: 10px;
   padding-top: 25px;
@@ -29,22 +30,24 @@ p {
 }
 
 header {
-	padding-top: 20px;
+  padding: 40px;
+  text-align: center;
 }
 
 a:link {
-  color: #7D775C;
+  color: rgb(92, 101, 125);;
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
 }
 
 a:hover, a:active {
-  background-color: rgb(243, 236, 224);
+  background-color: rgb(174, 185, 214);;
 }
 
 a:visited {
-  color: rgb(112, 110, 98);
+  background-color: rgb(196, 210, 250);
+  color: rgb(114, 125, 155);
 }
 
 ol li {
@@ -56,6 +59,12 @@ ul li {
   list-style-type: disc;
   margin-left: 15px;
 }
+
+#signature {
+  opacity: 0.7;
+  padding-top: 70px;
+}
+
 
 footer {
   padding-top: 50px;
